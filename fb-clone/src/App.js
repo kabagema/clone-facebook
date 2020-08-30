@@ -6,7 +6,6 @@ function App() {
   //Bem naming convention
   return (
     <div className="app">
-      <h1> Facebook clone</h1>
       <Header />
       
       {/* Header */}
