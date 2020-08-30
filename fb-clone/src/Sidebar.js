@@ -5,9 +5,9 @@ import SidebarRow from './SidebarRow'
 function Sibebar() {
     return (
         <div className = "sidebar">
-            <SidebarRow />
-            <SidebarRow />
-            <SidebarRow />
+        
+            <SidebarRow title="Pages"/>
+            <SidebarRow title="Friends"/>
             <SidebarRow />
         </div>
     )
