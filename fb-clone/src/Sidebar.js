@@ -1,6 +1,8 @@
 import React from 'react'
 import './sidebar.css'
-import SidebarRow from './SidebarRow'
+//import './public/icloud.png'
+import SidebarRow from './SidebarRow';
+import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
 import EmojiFlagsIcon from '@material-ui/icons/EmojiFlags';
 import PeopleIcon from '@material-ui/icons/People';
 import chatIcon from '@material-ui/icons/Chat';
@@ -11,12 +13,14 @@ function Sibebar() {
     return (
         <div className = "sidebar">
         
-            <SidebarRow src={user.photoURL} title={user.displayName} />
             <SidebarRow 
-                Icon={localHospitalIcon}
-                title="Friends"
+            src={process.env.PUBLIC_URL + '/icloud.png'}
+            title='Julien'
             />
-
+            <SidebarRow 
+                Icon={LocalHospitalIcon}
+                title="COVID-19 Information Center"
+            />
             <SidebarRow Icon={EmojiFlagsIcon} title="Pages" />
             <SidebarRow Icon={PeopleIcon} title="Friends" />
             <SidebarRow Icon={chatIcon} title="Messenger" />
@@ -29,4 +33,4 @@ function Sibebar() {
 
 export default Sibebar
 
-// https://youtu.be/B-kxUMHBxNo?t=4868
+// title={user.displayName} 
