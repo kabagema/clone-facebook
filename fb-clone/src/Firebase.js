@@ -1,3 +1,5 @@
+import firebase from "firebase"
+
 const firebaseConfig = {
     apiKey: "AIzaSyDWGhjOuaFD_o8G5ICPdNkA13sdu0nWsio",
     authDomain: "kabagema-fb-clone.firebaseapp.com",
@@ -10,3 +12,8 @@ const firebaseConfig = {
 
   const firebaseApp = firebase.initializeApp(firebaseConfig);
   const db = firebaseApp.firestore();
+  const auth = firebase.auth();
+  const provider = new firebase.auth.GoogleAuthProvider();
+
+  const { auth, provider };
+  export default db;
