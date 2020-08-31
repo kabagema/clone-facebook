@@ -26,7 +26,7 @@ function Feed() {
              />
             <Post
             profilePic ='https://pmcvariety.files.wordpress.com/2020/07/idris-elba-1.jpg?w=600'
-            message=' this works?'
+            message='this works?'
             timestamp='this is a timestamp'
             username='kamp'
             image='https://www.tutorialrepublic.com/lib/images/javascript-illustration.png'
