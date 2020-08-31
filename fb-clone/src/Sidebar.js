@@ -14,8 +14,8 @@ function Sibebar() {
         <div className = "sidebar">
         
             <SidebarRow 
-            src={process.env.PUBLIC_URL + '/icloud.png'}
-            title='Julien'
+            src="https://imgix.bustle.com/inverse/09/71/a8/91/f673/44dc/855d/4a46588b0b32/harrowjpg.jpeg?w=710&h=399.72999999999996&auto=format%2Ccompress&cs=srgb&q=70&fit=max&crop=faces&dpr=2"
+            title='Julien Kabagema'
             />
             <SidebarRow 
                 Icon={LocalHospitalIcon}

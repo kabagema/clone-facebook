@@ -23,7 +23,6 @@ function Header() {
                 />
                 <div className ="header__input">
                     <SearchIcon />
-
                     <input placeholder="Search Facebook" type="text" />
 
                 </div>
@@ -48,7 +47,7 @@ function Header() {
             <div className="header__right">
                 <div className="header__info">
                     <Avatar />
-                    <h4>Kabagema</h4>
+                    <h4>Julien</h4>
                 </div>
                 <IconButton>
                     <AddIcon />
