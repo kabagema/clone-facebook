@@ -33,11 +33,6 @@ function StoryReel() {
             profileSrc= 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSS-yPpvgCmZNjylDhq0N3Z7P8EU7enx6w7Ww&usqp=CAU'
             title="Douglas Kamarade"
             />
-            <Story
-            image= 'https://image.shutterstock.com/z/stock-vector-hand-written-vector-shalom-text-cute-simple-shalom-lettering-typography-hand-lettering-1382028167.jpg'
-            profileSrc= 'https://wallpaperaccess.com/full/1421900.jpg'
-            title="Alice Uwase"
-            />
         
             {/*storyfeed*/}
             {/*storyfeed*/}

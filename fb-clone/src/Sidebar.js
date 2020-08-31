@@ -9,13 +9,16 @@ import chatIcon from '@material-ui/icons/Chat';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 import ExpandMoreOutlined from "@material-ui/icons/ExpandMoreOutlined";
+import { useStateValue } from './StateProvider';
+
 function Sibebar() {
+    const [{ user }, dispatch] = useStateValue();
     return (
         <div className = "sidebar">
         
             <SidebarRow 
-            src="https://imgix.bustle.com/inverse/09/71/a8/91/f673/44dc/855d/4a46588b0b32/harrowjpg.jpeg?w=710&h=399.72999999999996&auto=format%2Ccompress&cs=srgb&q=70&fit=max&crop=faces&dpr=2"
-            title='Julien Kabagema'
+            src= {user.photoURL}
+            title={user.displayName}
             />
             <SidebarRow 
                 Icon={LocalHospitalIcon}
