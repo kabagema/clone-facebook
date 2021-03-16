@@ -1,5 +1,5 @@
 # clone-facebook
-Portfolio project
+Portfolio project in ReactJs and Firebase
 # cloning pending...
     ### following @sangha tutorial
 ## using the following react concept & Firebase
